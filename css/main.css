@@ -2423,6 +2423,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a {
     display: block;
+
 }
 
 .item-folio__thumb a::before {
@@ -2492,6 +2493,19 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__caption {
     display: none;
+}
+
+.item-folio__caption a{
+
+}
+
+.demo-link{
+  font-family: "montserrat-semibold", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  color: #922424;
+  text-decoration: underline;
 }
 
 .item-folio__project-link {
