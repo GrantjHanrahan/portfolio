@@ -1280,7 +1280,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #862121;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -2387,7 +2387,9 @@ html.no-csstransitions .home-content__main {
 
 .masonry__brick {
     float: left;
-    padding: 0;
+    padding: 0.5px;
+    height: auto !important;
+    width: 50% !important;
 }
 
 .item-folio {
