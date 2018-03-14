@@ -2500,9 +2500,14 @@ html.no-csstransitions .home-content__main {
 
 }
 
-/* .demo-link{
-
-} */
+.demo-link{
+  font-family: "montserrat-semibold", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin: 0;
+  text-decoration: underline;
+}
 
 .item-folio__project-link {
     display: block;
