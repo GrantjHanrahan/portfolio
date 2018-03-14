@@ -2392,6 +2392,11 @@ html.no-csstransitions .home-content__main {
     width: 50% !important;
 }
 
+.masonry__brick img{
+
+  min-height: 300px;
+}
+
 .item-folio {
     position: relative;
     overflow: hidden;
