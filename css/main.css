@@ -2204,7 +2204,7 @@ html.no-csstransitions .home-content__main {
 
 .s-about {
     padding-top: 3rem;
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
     background-color: #FFFFFF;
     position: relative;
 }
@@ -2371,7 +2371,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .masonry-wrap {
-    margin-top: 4.8rem;
+    margin-top: 1.8rem;
     max-width: none;
     width: 1600px;
 }
@@ -2383,19 +2383,23 @@ html.no-csstransitions .home-content__main {
 }
 
 .masonry .grid-sizer, .masonry__brick {
-    width: 400px;
+    /* width: 400px; */
 }
 
 .masonry__brick {
     float: left;
-    padding: 0.5px;
+    padding: 1px;
     height: auto !important;
     width: 50% !important;
 }
 
 .masonry__brick img{
-
   min-height: 300px;
+}
+
+#primary{
+  margin-left: 2.5%;
+  width: 95% !important;
 }
 
 .item-folio {
@@ -3015,6 +3019,7 @@ footer {
     padding: 6.6rem 0 4.2rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.2);
+    background-color: black;
 }
 
 footer a, footer a:visited {
