@@ -2509,6 +2509,16 @@ html.no-csstransitions .home-content__main {
   text-decoration: underline;
 }
 
+.git-link{
+  font-family: "montserrat-semibold", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin: 0;
+  text-decoration: underline;
+  color: lightblue;
+}
+
 .item-folio__project-link {
     display: block;
     color: #FFFFFF;
