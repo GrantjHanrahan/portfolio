@@ -2221,6 +2221,11 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
+#resume{
+  height: 650px !important;
+  width: 420px;
+}
+
 
 /* -------------------------------------------------------------------
  * ## timeline - (_site-layout.scss)
@@ -2298,6 +2303,11 @@ html.no-csstransitions .home-content__main {
     .about-content .right {
         padding-left: 30px;
     }
+
+    #resume {
+      height: 700px;
+      width: 370px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -2306,6 +2316,11 @@ html.no-csstransitions .home-content__main {
     }
     .about-content .right {
         padding-left: 20px;
+    }
+
+    #resume {
+      height: 700px;
+      width: 350px;
     }
 }
 
@@ -2325,6 +2340,11 @@ html.no-csstransitions .home-content__main {
     .about-content .left > h3, .about-content .right > h3 {
         text-align: center;
     }
+
+    #resume {
+      height: 700px;
+      width: 340px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -2337,6 +2357,11 @@ html.no-csstransitions .home-content__main {
     .timeline__block {
         padding-left: 6rem;
     }
+
+    #resume {
+      height: 600px;
+      width: 320px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2348,6 +2373,11 @@ html.no-csstransitions .home-content__main {
     }
     .timeline__block {
         padding-left: 5.5rem;
+    }
+
+    #resume {
+      height: 600px;
+      width: 360px !important;
     }
 }
 
