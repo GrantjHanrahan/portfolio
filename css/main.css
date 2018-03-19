@@ -2419,18 +2419,27 @@ html.no-csstransitions .home-content__main {
 .masonry__brick {
     float: left;
     padding: 1px;
+    min-height: 200px !important;
     height: auto !important;
     width: 50% !important;
+    /* min-width: 300px; - causes the resume to not show */ 
 }
 
 .masonry__brick img{
-  min-height: 300px;
+  min-height: 270px;
+  /* max-height: 300px; */
+  width: 100% !important;
 }
 
-#primary{
+#primary {
   margin-left: 2.5%;
   width: 95% !important;
 }
+
+/* #primary img{
+  min-height: 450px !important;
+
+} */
 
 .item-folio {
     position: relative;
